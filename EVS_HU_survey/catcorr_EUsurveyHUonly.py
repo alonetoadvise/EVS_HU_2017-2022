@@ -3,7 +3,7 @@ from scipy.stats import chi2_contingency
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-file = (r"/Users/mbencsik/Documents/python/EVS_data_hu.csv")
+file = (r"EVS_data_hu.csv")
 data = pd.read_csv(file)
 
 #data['age'] = data['x003r'].replace({1:"15-24", 2:"25-34", 3:"35-44", 4:"45-54", 5:"55-64", 6:">65", -2:"NA", -1:"Not sure"})
